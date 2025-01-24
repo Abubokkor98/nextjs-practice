@@ -5,7 +5,7 @@ export default async function Profile() {
   const { isAuthenticated, getUser } = getKindeServerSession();
 
   const user = await getUser();
-  console.log(user);
+//   console.log(user);
 
   return (await isAuthenticated()) ? (
     <>
