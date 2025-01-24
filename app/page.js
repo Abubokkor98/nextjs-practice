@@ -20,7 +20,10 @@ export default async function Blogs() {
               <h2 className="text-xl font-semibold mb-2 text-gray-900">
                 {blog.title}
               </h2>
-              <p className="text-gray-600 line-clamp-3">{blog.body}</p>
+              <p className="text-gray-600">
+                {blog.body.slice(0, 30)}...{" "}
+                <span className="text-blue-500">Learn more</span>
+              </p>
             </div>
           </Link>
         ))}

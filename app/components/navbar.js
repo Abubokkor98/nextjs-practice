@@ -11,7 +11,7 @@ const Navbar = async () => {
   const isUserAuthenticated = await isAuthenticated();
 
   const links = (
-    <ul className=" flex flex-col lg:flex-row lg:space-x-4 space-y-2 lg:space-y-0">
+    <ul className=" flex flex-row space-x-1 md:space-x-4 space-y-0">
       <li>
         <Link
           href="/"
