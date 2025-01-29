@@ -26,7 +26,7 @@ export default async function Profile() {
       </div>
     </>
   ) : (
-    <p className="text-gray-600 mb-6">
+    <p className="text-gray-600 mb-6 text-center">
       Please{" "}
       <LoginLink className="text-teal-500 font-medium underline">
         log in
